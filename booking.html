@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initail-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kafé Hörnet - Boka bord</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -23,41 +23,52 @@
       <section class="page-header">
         <h1>Boka bord</h1>
           <p>
-            Nybakar varje morgon, kaffe från ett litet rosteri i Järna och ett
-            hörn som alltid är ledigt för dig. Välkommen In.
+            Fyll i formuläret så bekräftar vi via e-post inom en timme under öppettid. Sällskap över 8 personer: ring oss.
           </p>
-          <a href="booking.html" class="btn">Boka bord</a>
-        </div>
-        <div class="hero-image">
-          <img src="images/hero.svg" alt="interiör från Kafé Hörnet" />
-        </div>
+      </section>
+      <section class="booking-section">
+      <form id="booking-form" action="#" method="post" novalidate>
+        <div class="form-group">
+          <label for="name">Namn</label>
+        <input type="text" id="name" name="name" required>
+        <span class="error-message" id="name-error" aria-live="polite"></span> 
+                </div>
+                <div class="form-group">
+                  <label for="email"> e-post</label>
+                  <input type="email" id="email" name="email" required />
+                  <span class="error-message" id="email-error" aria-live="polite"></span>
+                </div>
+     </div>
+                <div class="form-group">
+                  <label for="time">Tid</label>
+                  <input type="time" id="time" name="time" required />
+                  <span class="error-message" id="time-error" aria-live="polite"></span>
+                </div>
+
+                </div>
+                <div class="form-group">
+                  <label for="guests">Antal personer</label>
+                  <input type="number" id="guests" name="guests" min="1" max="8" required />
+                  <span class="error-message" id="guests-error" aria-live="polite"></span>
+                </div>
+                </div>
+                <div class="form-group">
+                  <label for="message"> Meddelande (frivilligt)</label>
+                  <textarea id="message" name="message" rows="4"></textarea>
+                                  </div>
+     <button type="submit">Skicka bokning</button>
+                                </form>
+                                <p id="form-feedback" aria-live="polite"></p>
+      </section>
+      <section class="good-to-know">
+        <h2>  Bra att veta</h2>
+        <ul>
+          <li> Bordet hålls i 15minuter efter bokad tid.</li>
+          <li> vi har plats för barnstolar och plats för barnvagn.</li>
+        <li> Hundar är välkomna på uteserveringen</li>
+        </ul>
       </section>
 
-      <section class="favorites">
-        <div class="card"> 
-        <h2>Veckans favoriter</h2>
-        <img src="images/cinnamon-bun.svg" alt="Nybakad kanelbulle" />
-        <h3> Kanelbulle</h3>
-        <p> Kardemumma i degen, pärlsocker på toppen. Baka kl.06.30.</p>
-        <span class="price">38 kr</span>
-
-        <img src="images/latte.svg" alt="Kaffe latte"/>
-        <h3>Latte</h3>
-        <p> Dubbel espresso och skummad mjölk. Havremjölk utan extra kostnad.</p>
-        <span class="price">49kr</span>
-
-        <img src="images/soup.svg" alt="Rostad tomatsoppa"/>
-        <h3>Dagens Soppa</h3>
-        <p>Just nu: Rostad tomatsoppa med surdegsbröd och örtolja.</p>
-        <span class="price" >115 kr </span>
-        </div>
-      </section>
-
-      <section class"open-now">
-        <h2>Öppet just nu</h2>
-        <p> Vi har öppet måndag-fredag 07.30-18.00 och helger 09.00-17.00. Du hittar oss på Hörngatan 12, två minuter från Mariatorget.</p>
-        <a href="menu.html">Se hela menyn</a>
-      </section>
     </main>
 
     <footer>
