@@ -22,61 +22,91 @@
     <main>
       <section class="page-header">
         <h1>Boka bord</h1>
-          <p>
-            Fyll i formuläret så bekräftar vi via e-post inom en timme under öppettid. Sällskap över 8 personer: ring oss.
-          </p>
+        <p>
+          Fyll i formuläret så bekräftar vi via e-post inom en timme under
+          öppettid. Sällskap över 8 personer: ring oss.
+        </p>
       </section>
       <section class="booking-section">
-      <form id="booking-form" action="#" method="post" novalidate>
-        <div class="form-group">
-          <label for="name">Namn</label>
-        <input type="text" id="name" name="name" required>
-        <span class="error-message" id="name-error" aria-live="polite"></span> 
-                </div>
-                <div class="form-group">
-                  <label for="email"> e-post</label>
-                  <input type="email" id="email" name="email" required />
-                  <span class="error-message" id="email-error" aria-live="polite"></span>
-                </div>
-     </div>
-                <div class="form-group">
-                  <label for="time">Tid</label>
-                  <input type="time" id="time" name="time" required />
-                  <span class="error-message" id="time-error" aria-live="polite"></span>
-                </div>
-
-                </div>
-                <div class="form-group">
-                  <label for="guests">Antal personer</label>
-                  <input type="number" id="guests" name="guests" min="1" max="8" required />
-                  <span class="error-message" id="guests-error" aria-live="polite"></span>
-                </div>
-                </div>
-                <div class="form-group">
-                  <label for="message"> Meddelande (frivilligt)</label>
-                  <textarea id="message" name="message" rows="4"></textarea>
-                                  </div>
-     <button type="submit">Skicka bokning</button>
-                                </form>
-                                <p id="form-feedback" aria-live="polite"></p>
+        <form id="booking-form" action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" required />
+            <span
+              class="error-message"
+              id="name-error"
+              aria-live="polite"
+            ></span>
+          </div>
+          <div class="form-group">
+            <label for="email"> e-post</label>
+            <input type="email" id="email" name="email" required />
+            <span
+              class="error-message"
+              id="email-error"
+              aria-live="polite"
+            ></span>
+          </div>
+          <div class="form-group">
+            <label for="date">Datum</label>
+            <input type="date" id="date" name="date" required />
+            <span
+              class="error-message"
+              id="date-error"
+              aria-live="polite"
+            ></span>
+          </div>
+          <div class="form-group">
+            <label for="time">Tid</label>
+            <input type="time" id="time" name="time" required />
+            <span
+              class="error-message"
+              id="time-error"
+              aria-live="polite"
+            ></span>
+          </div>
+          <div class="form-group">
+            <label for="guests">Antal personer</label>
+            <input
+              type="number"
+              id="guests"
+              name="guests"
+              min="1"
+              max="8"
+              required
+            />
+            <span
+              class="error-message"
+              id="guests-error"
+              aria-live="polite"
+            ></span>
+          </div>
+          <div class="form-group">
+            <label for="message"> Meddelande (frivilligt)</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit">Skicka bokning</button>
+        </form>
+        <p id="form-feedback" aria-live="polite"></p>
       </section>
       <section class="good-to-know">
-        <h2>  Bra att veta</h2>
+        <h2>Bra att veta</h2>
         <ul>
-          <li> Bordet hålls i 15minuter efter bokad tid.</li>
-          <li> vi har plats för barnstolar och plats för barnvagn.</li>
-        <li> Hundar är välkomna på uteserveringen</li>
+          <li>Bordet hålls i 15minuter efter bokad tid.</li>
+          <li>vi har plats för barnstolar och plats för barnvagn.</li>
+          <li>Hundar är välkomna på uteserveringen</li>
         </ul>
       </section>
-
     </main>
 
     <footer>
       <div class="footer-columns">
-
         <div>
-          <h3> Hitta hit</h3>
-          <p>Hörngatan 12, 118 65 Stockholm. Två minuter från Mariatorgets tunnelbana.</p>
+          <h3>Hitta hit</h3>
+          <p>
+            Hörngatan 12, 118 65 Stockholm. Två minuter från Mariatorgets
+            tunnelbana.
+          </p>
         </div>
 
         <div>
@@ -89,7 +119,7 @@
           <p>hej@kafehornet.example 08-12345678</p>
         </div>
       </div>
-          <p class="copyright">&copy; Kafé Hörnet 2026</p>
+      <p class="copyright">&copy; Kafé Hörnet 2026</p>
     </footer>
   </body>
 </html>
