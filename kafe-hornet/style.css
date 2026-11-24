@@ -63,3 +63,9 @@ footer {
 .footer-columbs {
   display: flex;
 }
+
+.price {
+  color: #b5502b;
+  font-weight: bold;
+
+}
