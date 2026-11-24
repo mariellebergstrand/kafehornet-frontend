@@ -3,13 +3,15 @@
 }
 body {
   max-width: 1100px;
-  margin: 0 auto;
   padding: 0 24px;
   background-color: #fbf7f2;
   color: #2b2118;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
+}
+main {
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -47,4 +49,11 @@ nav a:hover {
   color: #000000;
   padding: 24px 24px;
   border-radius: 12px;
+}
+
+footer {
+  display: block;
+  background-color: #f1e8dc;
+  color: #000000;
+  padding: 12px 24px;
 }
