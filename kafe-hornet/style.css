@@ -22,11 +22,12 @@ img {
   display: block;
 }
 
-button { display: inline-block;
-background-color: #b5502b;
-color: #ffffff;
-padding; 12px 24px;
-border-radius; 8px;
+button {
+  display: inline-block;
+  background-color: #b5502b;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
 }
 
 nav ul {
@@ -39,4 +40,3 @@ nav ul {
 nav a:hover {
   color: #b5502b;
 }
-
