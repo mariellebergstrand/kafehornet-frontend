@@ -91,3 +91,11 @@ header A {
   color: #2B2118;
 }
 header button { display: none;}
+
+main:has(.good-to-know) {
+  display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 32px;
+align-items: start;
+}
+main:has(.good-to-know) >section:first-child {grid-column: 1/-1;}
