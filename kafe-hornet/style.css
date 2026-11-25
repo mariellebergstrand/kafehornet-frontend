@@ -55,15 +55,16 @@ nav a:hover {
 }
 
 footer {
-  display: block;
+  
   background-color: #f1e8dc;
   color: #000000;
   padding: 12px 24px;
-}
-.footer-columbs {
   display: flex;
+  flex-direction: column;
 }
-
+.footer-columns { 
+  display: flex; 
+  flex-direction: row;}
 .price {
   color: #b5502b;
   font-weight: bold;
