@@ -42,7 +42,12 @@ nav ul {
   display: flex;
   gap: 24px;
 }
+nav a {
+  text-decoration: none;
+  color: #2b2118
+}
 nav a:hover {
+  text-decoration: underline;
   color: #b5502b;
 }
 
@@ -73,3 +78,16 @@ footer {
   font-weight: bold;
 
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+border-bottom: 1px solid #e6dccf;
+}
+header A {
+  text-decoration: none;
+  color: #2B2118;
+}
+header button { display: none;}
