@@ -64,7 +64,10 @@ footer {
 }
 .footer-columns { 
   display: flex; 
-  flex-direction: row;}
+  flex-direction: row;
+  gap:24px;
+} 
+
 .price {
   color: #b5502b;
   font-weight: bold;
